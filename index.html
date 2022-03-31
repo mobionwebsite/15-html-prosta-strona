@@ -11,52 +11,58 @@
    <!--Navigation Menu-->
     <nav>
         <ul>
-        <li><a href="link">About us</a></li>
-        <li><a href="link">Skills</a></li>
-        <li><a href="link">Portfolio</a></li>
-        <li><a href="link">Contact</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
         </nav>
 
 
     <!--Section About us-->
+    <div id="about">
     <h1>Nagłówek 1</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti, 
         provident, culpa tempora impedit praesentium magni et sint earum libero odio laborum. 
         Dolorem, tenetur ut voluptas error pariatur placeat incidunt.</p>
+    </div>
 
 
     <!--Section Skills-->
- 
+    <div id="skills">
     <div class="skill"><h2>Nagłówek 2</h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
     <div class="skill"><h2>Nagłówek 3</h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
     <div class="skill"><h2>Nagłówek 4</h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
     <div class="skill"><h2>Nagłówek 5</h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
    
     <!--Section Portfolio-->
+    <div id="portfolio">
     <h2>Nagłówek 6</h2>
     <div class="portfolio-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/2019_Volvo_S60_01.jpg"alt="Volvo_s60"width=300px></div>
     <div class="portfolio-item"><img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Volvo_S40_M_facelift_China_2012-04-29.jpg"alt="Volvo_s40"width=300px></div>
     <div class="portfolio-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Volvo_S70_--_02-29-2012.JPG/420px-Volvo_S70_--_02-29-2012.JPG"alt="Volvo_s70"width=300px></div>
+    </div>
 
     <!--Section Contact-->
-    <h2>Grzegorz Nowakowski</h2>
-    <address>
-        Mozilla Foundation<br>
-        331 E Evelyn Ave<br>
-        Mountain View, CA 94041<br>
-        USA
-      </address>
+    <div id="contact">
+        <h2>Grzegorz Nowakowski</h2>
+            <address>
+             Mozilla Foundation<br>
+            331 E Evelyn Ave<br>
+            Mountain View, CA 94041<br>
+            USA
+            </address>
 
-    <form action="/action_page.php">
-        <label for="fname">Imię:</label><br>
-        <input type="text" id="fname" name="fname" required><br>
-        <label for="lname">Temat:</label><br>
-        <input type="text" id="temat" name="temat" required><br>
-        <label for="lname">Wiadomość</label><br>
-        <textarea name="texarea" id="message" name="message" required></textarea><br>
-        <input type="submit" value="Wyślij">
+        <form action="/action_page.php">
+            <label for="fname">Imię:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Temat:</label><br>
+            <input type="text" id="temat" name="temat" required><br>
+            <label for="lname">Wiadomość</label><br>
+            <textarea name="texarea" id="message" name="message" required></textarea><br>
+            <input type="submit" value="Wyślij">
     </form>
-     
+    </div>
     
 </body>
 </html>
